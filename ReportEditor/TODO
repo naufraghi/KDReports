@@ -1,0 +1,28 @@
+KD Reports editor
+* Refactor how to handle previous paragraph (used to apply tabs and margin from the previous one if not defined on the current)
+  - Current code is old and with other refactoring probably don't work well, and need to unit test that
+* Allow to click on item like VSpace, Image in order to select it, not just a cursor.
+* Allow user to add/remove column/row to a table (backend already exist, but need probably more unit test)
+* Improve structure view in order to allow user to move item on it, delete item on it...
+* Unit test text edition near a VSpace, before, after and solve problem
+* Improve saving file (implement save, currently only save as)
+* Unit test PageBreak and check its current code works (probably not after the last refactoring)
+* Support model for image and text
+* Support ifdef element
+* Load header, footer and report in separated tree, and display the different view
+* Allow user to launch a preview and set id and model for it.
+* Unit test xml saving
+* Display page break in the editor
+* Modify property view for tab to allow user to add another tab or remove one (currently only allow to modify existing one)
+* Improve color editor (don't display black color for invalid color and add reset button to go back to invalid color)
+* Improve UI
+* Improve editor shortcut (Ctrl Backspace, Delete Backaspace...)
+* Some refactoring between ReportTextEdit / EditorData, some function can go to EditorData
+* Keep the same object selected when modifying property
+* Merge undo/redo for writing text
+* Don't allow negative value for some property like vspace size...
+
+KD Reports - xml
+* Add watermark support in xml file
+* Add columnCount for table header
+* Add background and paragraph-background for image (useful if we have a text inline after an image / or a transparent image)

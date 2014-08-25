@@ -1,0 +1,24 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+<file>./autotable.xml</file>
+<file>./chart.xml</file>
+<file>./file.qrc</file>
+<file>./footer.xml</file>
+<file>./headerFooter.xml</file>
+<file>./hline.xml</file>
+<file>./hlineText.xml</file>
+<file>./html.xml</file>
+<file>./image.xml</file>
+<file>./paragraph.xml</file>
+<file>./paragraph2.xml</file>
+<file>./PriceList.xml</file>
+<file>./reportproperty.xml</file>
+<file>./simple.xml</file>
+<file>./simpletextelement.xml</file>
+<file>./table.xml</file>
+<file>./testTable.xml</file>
+<file>./textelement.xml</file>
+<file>./variable.xml</file>
+<file>./vspace.xml</file>
+</qresource>
+</RCC>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.kdab.com/kdreports">
+  <html id="id_text_xml" background="#CCCCFF">Test <b>html</b> properties</html>
+</report>

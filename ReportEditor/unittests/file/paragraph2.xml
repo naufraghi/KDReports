@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.kdab.com/kdreports" >
+   <paragraph-margins left="4" top="8" right="12" bottom="16"/>
+   <text alignment="right" paragraph-background="blue">Paragraph1</text>
+   <text>Paragraph2</text>
+</report>

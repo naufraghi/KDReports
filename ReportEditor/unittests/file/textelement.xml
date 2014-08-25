@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.kdab.com/kdreports" >
+   <text font='Arial' id="id_text_xml" bold="true" background="#CCCCFF" pointsize="12" underline="true" strikeout="true" italic="true" color="red" model="myModel" column="1" row="2">Page </text>
+</report>

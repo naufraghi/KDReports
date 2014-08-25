@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.kdab.com/kdreports" pointsize='16'>
+  <header font = 'Arial' pointsize='8'>
+   <text alignment='hcenter'>First text </text>
+   <text> second text </text>
+  </header>
+  <footer><text>footer</text></footer>
+  <text>normal text</text>
+</report>

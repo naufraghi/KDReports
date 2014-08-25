@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.kdab.com/kdreports">
+<table headerRowCount="2" cellpadding="3"  background="red" width="100" border="2">
+  <cell row="0" column="0"  background="yellow" colspan="3">
+    <text alignment="hcenter">TableElement example</text>
+  </cell>
+  <cell row="1" column="1"  background="yellow">
+    <text alignment="hcenter">TableElement example</text>
+  </cell>
+  <cell row="1" column="2"  background="yellow">
+    <text alignment="hcenter">TableElement example</text>
+  </cell>
+  <cell row="1" column="3"  background="yellow">
+    <text alignment="hcenter">TableElement example</text>
+  </cell>
+  <cell row="1" column="4"  background="yellow">
+    <text alignment="hcenter">TableElement example</text>
+  </cell>
+  <cell row="2" column="0"  background="yellow">
+    <text alignment="hcenter">TableElement example</text>
+  </cell>
+  <cell row="2" column="1"  background="yellow">
+    <text alignment="hcenter">TableElement example</text>
+  </cell>
+  <cell row="3" column="0"  background="yellow">
+    <text alignment="hcenter">TableElement example</text>
+  </cell>
+  <cell row="4" column="0"  background="yellow">
+    <text alignment="hcenter">TableElement example</text>
+  </cell>
+</table>
+</report>

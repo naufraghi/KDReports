@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.kdab.com/kdreports">
+<table headerRowCount="2" cellpadding="3"  background="red" width="100" border="2">
+  <cell row="0" column="0"  background="yellow">
+    <text alignment="hcenter">00 example</text>
+  </cell>
+  <cell row="0" column="1"  background="yellow">
+    <text alignment="hcenter">01 example</text>
+  </cell>
+  <cell row="1" column="0"  background="yellow">
+    <text alignment="hcenter">10 example</text>
+  </cell>
+  <cell row="1" column="1"  background="yellow">
+    <text alignment="hcenter">11 example</text>
+  </cell>
+</table>
+</report>

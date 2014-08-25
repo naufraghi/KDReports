@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="open">pics/document-open16x16.png</file>
+        <file alias="open-data">pics/document-open-data16x16.png</file>
+        <file alias="save">pics/document-save16x16.png</file>
+        <file alias="save-as">pics/document-save-as16x16.png</file>
+        <file alias="quit">pics/edit-delete16x16.png</file>
+        <file alias="refresh">pics/view-refresh16x16.png</file>
+        <file alias="icon16">pics/reportviewer 16x16.png</file>
+        <file alias="icon22">pics/reportviewer 22x22.png</file>
+        <file alias="icon32">pics/reportviewer 32x32.png</file>
+        <file alias="icon48">pics/reportviewer 48x48.png</file>
+        <file alias="icon64">pics/reportviewer 64x64.png</file>
+        <file alias="icon128">pics/reportviewer 128x128.png</file>
+        <file alias="icon256">pics/reportviewer 256x256.png</file>
+        <file alias="add">pics/list-add16x16.png</file>
+        <file alias="remove">pics/list-remove16x16.png</file>
+        <file alias="image-missing">pics/image-missing64x64.png</file>
+        <file alias="add-hline">pics/insert-horizontal-rule16x16.png</file>
+        <file alias="add-image">pics/insert-image16x16.png</file>
+        <file alias="add-text">pics/insert-text16x16.png</file>
+        <file alias="add-table">pics/insert-table16x16.png</file>
+        <file alias="new">pics/document-new16x16.png</file>
+        <file alias="insert-column-before">pics/edit-table-insert-column-left32x32.png</file>
+        <file alias="insert-column-after">pics/edit-table-insert-column-right32x32.png</file>
+        <file alias="insert-row-before">pics/edit-table-insert-row-above32x32.png</file>
+        <file alias="insert-row-after">pics/edit-table-insert-row-below32x32.png</file>
+        <file alias="delete-column">pics/edit-table-delete-column32x32.png</file>
+        <file alias="delete-row">pics/edit-table-delete-row32x32.png</file>
+    </qresource>
+</RCC>

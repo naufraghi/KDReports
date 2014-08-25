@@ -1,5 +1,5 @@
 TEMPLATE = subdirs
-SUBDIRS  = src examples include
+SUBDIRS  = src examples ReportEditor include
 unittests: SUBDIRS += unittests
 CONFIG   += ordered
 VERSION  = 1.5.99
@@ -32,6 +32,7 @@ CONFIG(debug, debug|release) {
 
 KDREPORTSLIB = kdreports$$DEBUG_SUFFIX$$VERSION_SUFFIX
 KDREPORTSTESTTOOLSLIB = kdreporttesttools$$DEBUG_SUFFIX$$VERSION_SUFFIX
+KDREPORTSEDITORLIB = kdreportseditorlib$$DEBUG_SUFFIX$$VERSION_SUFFIX
 message(Install prefix is $$INSTALL_PREFIX)
 message(This is KD Reports version $$VERSION)
 
@@ -54,12 +55,13 @@ system('echo INSTALL_PREFIX=$$INSTALL_PREFIX >> $${QMAKE_CACHE}')
 system('echo VERSION=$$VERSION >> $${QMAKE_CACHE}')
 system('echo KDREPORTSLIB=$$KDREPORTSLIB >> $${QMAKE_CACHE}')
 system('echo KDREPORTSTESTTOOLSLIB=$$KDREPORTSTESTTOOLSLIB >> $${QMAKE_CACHE}')
+system('echo KDREPORTSEDITORLIB=$$KDREPORTSEDITORLIB >> $${QMAKE_CACHE}')
 
 # forward make test calls to unittests:
 test.target=test
-unix:!macx:test.commands=export LD_LIBRARY_PATH=\"$${OUT_PWD}/lib\":$$(LD_LIBRARY_PATH); (cd unittests && $(MAKE) test)
-macx:test.commands=export DYLD_LIBRARY_PATH=\"$${OUT_PWD}/lib\":$$(DYLD_LIBRARY_PATH); (cd unittests && $(MAKE) test)
-win32:test.commands=(cd unittests && $(MAKE) test)
+unix:!macx:test.commands=export LD_LIBRARY_PATH=\"$${OUT_PWD}/lib\":$$(LD_LIBRARY_PATH); (cd unittests && $(MAKE) test) && (cd ReportEditor && $(MAKE) test)
+macx:test.commands=export DYLD_LIBRARY_PATH=\"$${OUT_PWD}/lib\":$$(DYLD_LIBRARY_PATH); (cd unittests && $(MAKE) test) && (cd ReportEditor && $(MAKE) test)
+win32:test.commands=(cd unittests && $(MAKE) test && cd .. && cd ReportEditor && $(MAKE) test)
 test.depends = $(TARGET)
 QMAKE_EXTRA_TARGETS += test
 
