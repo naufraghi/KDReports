@@ -130,9 +130,10 @@ void KDReports::AbstractTableElement::fillTableFormat( QTextTableFormat& tableFo
     tableFormat.setBorder( border() );
 #if QT_VERSION >= 0x040300
     tableFormat.setBorderBrush( borderBrush() );
+    tableFormat.setBorderStyle( QTextFrameFormat::BorderStyle_Solid );
 #endif
     tableFormat.setCellPadding( mmToPixels( padding() ) );
-    tableFormat.setCellSpacing( 0 ); // HTML-like table borders look so old century
+    tableFormat.setCellSpacing( -1 ); // HTML-like table borders look so old century
     if ( d->m_fontSpecified ) {
         QTextCharFormat charFormat = textDocCursor.charFormat();
         charFormat.setFont( d->m_defaultFont );
